@@ -1,30 +1,4 @@
-# MiniSearch
-
-[![CI Build](https://github.com/lucaong/minisearch/workflows/CI%20Build/badge.svg)](https://github.com/lucaong/minisearch/actions)
-[![Coverage Status](https://coveralls.io/repos/github/lucaong/minisearch/badge.svg?branch=master)](https://coveralls.io/github/lucaong/minisearch?branch=master)
-[![Minzipped Size](https://badgen.net/bundlephobia/minzip/minisearch)](https://bundlephobia.com/result?p=minisearch)
-[![npm](https://img.shields.io/npm/v/minisearch?color=%23ff00dd)](https://www.npmjs.com/package/minisearch)
-[![npm downloads](https://img.shields.io/npm/dw/minisearch)](https://www.npmjs.com/package/minisearch)
-[![types](https://img.shields.io/npm/types/minisearch)](https://lucaong.github.io/minisearch/classes/_minisearch_.minisearch.html)
-
-`MiniSearch` is a tiny but powerful in-memory fulltext search engine written in
-JavaScript. It is respectful of resources, and it can comfortably run both in
-Node and in the browser.
-
-Try out the [demo application](https://lucaong.github.io/minisearch/examples/).
-
-Find the complete [documentation and API reference
-here](https://lucaong.github.io/minisearch/classes/_minisearch_.minisearch.html),
-and more background about `MiniSearch`, including a comparison with other
-similar libraries, in [this blog
-post](https://lucaongaro.eu/blog/2019/01/30/minisearch-client-side-fulltext-search-engine.html).
-
-`MiniSearch` follows [semantic versioning](https://semver.org/spec/v2.0.0.html),
-and documents releases and changes in the
-[changelog](https://github.com/lucaong/minisearch/blob/master/CHANGELOG.md).
-
-
-## Use case
+=## Use case
 
 `MiniSearch` addresses use cases where full-text search features are needed
 (e.g. prefix search, fuzzy search, ranking, boosting of fields…), but the data
@@ -53,7 +27,7 @@ UIs, removing the need to make requests to a search server.
 
   * Zero external dependencies.
 
-`MiniSearch` strives to expose a simple API that provides the building blocks to
+'Searxh-Engine` strives to expose a simple API that provides the building blocks to
 build custom solutions, while keeping a small and well tested codebase.
 
 
@@ -80,9 +54,6 @@ import MiniSearch from 'minisearch'
 // If you are using require:
 const MiniSearch = require('minisearch')
 ```
-
-Alternatively, if you prefer to use a `<script>` tag, you can require MiniSearch
-[from a CDN](https://www.jsdelivr.com/package/npm/minisearch):
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/minisearch@6.1.0/dist/umd/index.min.js"></script>
