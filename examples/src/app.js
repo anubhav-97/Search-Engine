@@ -200,7 +200,7 @@ const Song = ({ title, artist, year, rank }) => (
 
 const Header = (props) => (
   <header className='Header'>
-    <h1>Song Search</h1>
+    <h1>Go Search</h1>
     <SearchBox {...props} />
   </header>
 )
@@ -326,7 +326,7 @@ const AdvancedOptions = ({ options, setOption, setFromYear, setToYear, fromYear,
 const Explanation = () => (
   <p>
     This is a demo of the <a
-      href='https://github.com/lucaong/minisearch'>MiniSearch</a> JavaScript
+      href='https://github.com/anubhav-97/Search-Engine'>GoSearch</a> JavaScript
     library: try searching through more than 5000 top songs and artists
     in <em>Billboard Hot 100</em> from year 1965 to 2015. This example
     demonstrates search (with prefix and fuzzy match) and auto-completion.
